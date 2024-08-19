@@ -31,9 +31,9 @@ Créer un langage de programmation orientée objet qui pourrait implémenter une
   ````php
   int 
   float
-  char
+  char // uniquement des simples quotes
   boolean
-  String
+  String // définir uniquement avec les doubles quotes
   double  
   ````
   )
@@ -58,12 +58,19 @@ Array  , Objects , Classes
   
 ### Variables primitives 
 ```java
-byte => 1 octet => 8bits => -128 à 127
- short =>2 octet => 16bits => -32 768 à 32 767 
- int => 4 octet => 32bits => -2 147 483 648 à 2 147 483 647. long =>8 octet => 64 bits => -9 223 372 036 854 775 808 à 9 223 372 036
- float => 4 octet => 32bits => 6 à 7 chiffres décimaux double => 8 octet =>64bits => 15 chiffres décimaux boolaen => 1octet => 1bit => vrai ou faux
-  char => 2octets => 16bit => stocke les carectere ou les valeurs ascii
+* byte => 1 octet => 8bits => (stocke des nombres entiers de -128 à 127)
+ * short =>2 octets => 16bits => -32 768 à 32 767 
+ * int => 4 octets / bytes => 32bits => -2 147 483 648 à 2 147 483 647. 
+ * long =>8 octets => 64 bits => -9 223 372 036 854 775 808 à 9 223 372 036
+ * float => 4 octets / bytes => 32bits => 6 à 7 chiffres décimaux 
+ * double => 8 octets / bytes =>64bits => 15 chiffres décimaux booléens=> 1octet => 1bit => vrai ou faux
+* char => 2octets / bytes => 16bit => stocke les caractères ou les valeurs ascii
+
+1 octet équivalent à 8 bits ou 8 digits
+
 ```
+NB: Le `bit` est la plus petite unité de mesure électronique !
+
 ### Différences entre les variables primitives et non primitives
 
   * type primitif prédéfini en java, non primitif créé par le programmeur 
