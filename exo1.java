@@ -14,6 +14,5 @@
             System.out.println("Taille de byte : " + Long.BYTES + "octets");
             System.out.println("Taille de float : " + Float.BYTES + "octets");
             System.out.println("Taille de double : " + Double.BYTES + "octets");
-            System.out.println("Taille de char : " + Char.BYTES + "octets");
         }
     }

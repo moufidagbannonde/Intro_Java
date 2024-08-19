@@ -49,7 +49,7 @@ Array  , Objects , Classes
 
   ```
    exemple 
-  ````php
+  ````java
   int nbr = 15;
   double x = 25.3;
   char y = 'm';
@@ -81,6 +81,29 @@ NB: Le `bit` est la plus petite unité de mesure électronique !
   * primitif a toujours une valeur , non primitif peut-être nul
   * primitif commence par minuscule , non primitifs par une lettre majuscule
   
+
+  ## Convertion de type ou Type Casting
+
+  * Widening Casting : conversion vers un type plus grand
+  
+  exemple : 
+  ````java
+  int variable = 152;
+  double variable1 = variable; // widening
+
+  System.out.println(variable); // 152
+  System.out.println(variable1); // 152.0
+  ````
+  * Narrowing Casting : conversion d'un type plus grand vers un type plus petit 
+
+exemple :
+````java
+  double variable = 9;
+  int mydouble = (double) variable; // narrowing
+
+  System.out.println(variable); // 9
+  System.out.println(mydouble); // 9.0
+````
 
 ## POO Java
 
