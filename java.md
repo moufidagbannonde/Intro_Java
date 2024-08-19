@@ -84,7 +84,7 @@ NB: Le `bit` est la plus petite unité de mesure électronique !
 
   ## Convertion de type ou Type Casting
 
-  * Widening Casting : conversion vers un type plus grand
+  * Widening Casting : conversion d'un type plus petit vers un type plus grand
   
   exemple : 
   ````java
@@ -104,8 +104,15 @@ exemple :
   System.out.println(variable); // 9
   System.out.println(mydouble); // 9.0
 ````
+## Opérateurs Java
+  * Opérateurs de logique
+  * Opérateurs d'affectation
 
-## POO Java
+## Structures de controle
+  * if...else
+  * if....else if....else
+  * switch
+# POO Java
 
 ### Constructeur : 
 utilisé pour initialiser les attributs d'un objet au moment de la création
