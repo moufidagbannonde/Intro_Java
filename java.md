@@ -51,7 +51,10 @@ Array  , Objects , Classes
    exemple 
   ````php
   int nbr = 15;
-  double x = 25.3
+  double x = 25.3;
+  char y = 'm';
+  boolean isBoy = true;
+  String msg = "I'm a student at Highfive University !"
   ````
  * utilisation du camelCase
  * éviter l'utilisation des noms trop courts ou trop longs
