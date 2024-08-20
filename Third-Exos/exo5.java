@@ -1,18 +1,20 @@
 public class exo5 {
     public static void main(String[] args){
-       counter(13804795);
+       System.out.println(counter(145));
     }
-    static void counter(int lambda){
-        Boolean result = lambda % 2 == 0;
-        System.out.println(result);
+    static int counter(int lambda){
         int x = 0;
-        for(int i = 0; i < lambda; i++){
-            if(result == false ){
+        int[] lam = {lambda};
+        for(int i = 0; i < lam.length; i++){
+        Boolean result = lam[i] % 2 == 0;
+        System.out.println(result);
+            if(!result){
                 x += 1;    
                 System.out.println(x);   
-                break;         
+                continue;         
             }
         }
+        return x;
     }
         
     }

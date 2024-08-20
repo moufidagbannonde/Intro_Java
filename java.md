@@ -1,4 +1,4 @@
-# Intro Java 
+# *Intro Java*
    Java a été créé par `James Gosling` en juin 1991 , l'équipe verte composée de `James Gosling`, `Mike Sheridan` et `Patrick Naughton` a contribué au dévéloppement du projet !
 
 * ## Objectif principal
@@ -176,6 +176,77 @@ for (int i = 0; i < numbers.length; i++) {
   }
   System.out.println(numbers[i]);
 }
+````
+## Arrays
+  *Basics*
+  * Pour déclarer un tableau en Java , on utilise la syntaxe suivante : `T[] name_of_array`
+
+````java
+int[] tableau = {1, 2, 3}
+````
+
+*Arrays-Methods*
+  * `T` : type
+      *  `newLength` : nouvelle longueru
+ **`Arrays.copyOf()`** : créer une copie d'un tableau avec une longueur spécifiée 
+  `T[] Arrays.copyOf(T[] original , int newLength);`
+  ````java
+  int [] original = {1, 2, 3};
+  T[] = Arrays.copyOf(original, 5)
+  ````
+  **`Array.copyOfRange()`** : copie une partie d'un tableau `T[] Arrays.copyOfRange(T[] original, int from, int to);`
+   ````java
+  int[] original = {1, 2, 3, 4, 5};
+  int[] part = Arrays.copyOfRange(original, 1, 4); // {2, 3, 4}
+   ````
+   **`Arrays.sort()`**  : trie les éléments d'un tableau dans l'ordre naturel `void Arrays.sort(T[] array);`
+ ````java
+ int[] numbers = {3, 1, 4, 1, 5};
+  Arrays.sort(numbers); // {1, 1, 3, 4, 5}
+````
+ **`Arrays.binarySearch()`** : recherche une valeur dans un tableau trié et retourne son index `int Arrays.binarySearch(T[] array, T key);`
+
+````java
+  int[] numbers = {1, 2, 3, 4, 5};
+  int index = Arrays.binarySearch(numbers, 3); // 2
+````
+  **`Arrays.fill`** : remplit toutes les positions d'un tableau avec une valeur spécifiée `void Arrays.fill(T[] array, T value);`
+
+````java
+  int[] numbers = new int[5];
+  Arrays.fill(numbers, 7); // {7, 7,  7, 7, 7}
+````
+**`Arrays.equals()`** : compare deux tableaux pour vérifier s'ils sont égaux `boolean Arrays.equals(T[] a, T[] b)`
+
+  ````java
+  int[] a = {1, 2, 3};
+  int[] b = {1, 2, 3};
+  boolean isEqual = Arrays.equals(a, b); // true
+  ````
+  **`Arrays.stream()`** : crée un flux à partir d'un tableau `Stream<T> Arrays.stream(T[] array);` 
+
+````java
+  int[] numbers = {1, 2, 3, 4, 5};
+  Arrays.stream(numbers).forEach(System.out::println);
+````
+**`Arrays.asList()`** : convertit un tableau en une liste (List) `List<T> Arrays.asList(T... a);` 
+
+````java
+String[] carArray = {"toyota", "citroen", "bugatti"};
+List<String> carList = Arrays.asList(carArray);
+````
+  **`Arrays.hashCode()`** : retourne le code de hashage pour un tableau `int Arrays.hashCode(T[] array);`
+
+````java
+int[] numbers = {1, 2, 3};
+int hashCode = Arrays.hashCode(numbers);
+````
+
+  **`Arrays.deepToString()`** : retourne une chaîne de caractères représentant les éléments d'un tableau multidimensionnel `String Arrays.deepToString(Object[] array);` 
+
+````java
+int[][] matrix = {{1, 2}, {3, 4}};
+String matrixString = Arrays.deepToString(matrix); // "[[1, 2], [3, 4]]"
 ````
 # POO Java
 
