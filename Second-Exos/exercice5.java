@@ -1,6 +1,5 @@
 public class exercice5 {
     public static void main(String[]  args){
-    int note ;
     System.out.println(calcul(100));
    
 }

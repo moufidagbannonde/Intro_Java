@@ -1,3 +1,4 @@
+import javax.xml.stream.events.Characters;
     public class exo1 {
         // valeur en octet des différents types primitifs
         byte aByte = 1;
@@ -14,6 +15,6 @@
             System.out.println("Taille de byte : " + Long.BYTES + "octets");
             System.out.println("Taille de float : " + Float.BYTES + "octets");
             System.out.println("Taille de double : " + Double.BYTES + "octets");
-            System.out.println("Taille de char : " + Caracters.BYTES + "octets");
+            System.out.println("Taille de char : " + Characters.NAMESPACE + "octets");
         }
     }

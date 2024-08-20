@@ -4,7 +4,7 @@ public class Exercice5 {
         int[] alpha = {
             1, 2, 3
         };
-        System.out.println(setNombre());
+        setNombre(alpha);
     }
     public Exercice5(int unNombre){
         nombre = unNombre;

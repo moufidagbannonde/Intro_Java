@@ -8,4 +8,5 @@
     Arrays.sort(gamma);
     System.out.println(Arrays.toString(gamma));
     }
+    
 }

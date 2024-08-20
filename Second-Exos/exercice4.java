@@ -8,7 +8,7 @@ static int remise(int alpha){
     Boolean result3 = alpha > 500;
 
     if(result1){
-        alpha = alpha;
+        System.out.println(alpha);
     }else if(result2){
         alpha = (alpha * 10 / 100);
     } else if(result3){
