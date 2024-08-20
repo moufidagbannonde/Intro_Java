@@ -179,7 +179,8 @@ for (int i = 0; i < numbers.length; i++) {
 ````
 ## Arrays
   *Basics*
-  * Pour déclarer un tableau en Java , on utilise la syntaxe suivante : `T[] name_of_array`
+  * Pour déclarer un tableau en Java , on utilise la syntaxe suivante : `T[] name_of_array` avec `T` le type de données que le tableau doit contenir
+  * Pour connaître la longueur d'un tableau en Java 
 
 ````java
 int[] tableau = {1, 2, 3}
