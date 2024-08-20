@@ -5,7 +5,6 @@ public class exercice5 {
    
 }
 static String calcul(int n){
-    
-    return (n >= 50 )? " Reussi " : "Echoué";
+   return (n <= 100) ? ((n >= 50 )? " Reussi " : "Echoué") : "invalide";
     }
 }

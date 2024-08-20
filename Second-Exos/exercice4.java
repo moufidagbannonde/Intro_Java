@@ -9,11 +9,9 @@ static int remise(int alpha){
 
     if(result1){
         alpha = alpha;
-    }
-    if(result2){
+    }else if(result2){
         alpha = (alpha * 10 / 100);
-    }
-    if(result3){
+    } else if(result3){
         alpha = (alpha * 20 / 100);
     }
     return alpha;

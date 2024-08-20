@@ -4,8 +4,6 @@ public class exercice3 {
     public static void main(String[] args){
         System.out.println(classify(7));
     }
-
-
     static String classify(int âge){
         String result;
         Boolean firstOption = (0 < âge && âge< 12);

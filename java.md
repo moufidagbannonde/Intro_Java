@@ -112,6 +112,71 @@ exemple :
   * if...else
   * if....else if....else
   * switch
+
+## Boucles en Java
+* `while` : exécute une action lorsqu'une condition est vérifiée 
+  
+  exemple
+  ````java
+  int i = 0;
+  while(i < 15){
+    System.out.println("Yo les gars");
+  }
+  ````
+* `for` : comprend trois parties
+   * initialisation
+   * expression booléenne
+   * instruction d'incrémentation ou de décrémentation
+
+exemple 
+````java
+for (int i = 0; i <= 20; i++){
+  System.out.println(i);
+}
+````
+* `do while` : exécute une fois d'abord avant de vérifier la condition
+  
+  exemple
+  ```java
+  public static void main(String[] args){
+    byte i = 0;
+  do {
+    System.out.println("Bonjour");
+    i ++
+  } while(i < 5);
+  }
+
+
+
+* `foreach` : encore appelée boucle améliorée permet de parcourir directement chaque élément d'une liste d'éléments
+  
+  exemple 
+  ````java
+  for(String s : myArray){
+    // code à exécuter ici
+  }
+  ````
+  * `break` : utilisé pour quitter ou interrompre une boucle 
+````java
+ for (int i = 0; i < 10; i++) {
+  System.out.println(i);
+  if (i == 4) {
+    break;
+  }
+}
+ ````
+
+  * `continue` : utilisé pour sauter une itération ! L'itération de la boucle en cours s'arrête et l'itération suivante commence 
+````java
+int[] numbers = {1, 2, 3, 4, 5};
+    
+for (int i = 0; i < numbers.length; i++) {
+  if (numbers[i] % 2 == 0) {
+    continue;
+  }
+  System.out.println(numbers[i]);
+}
+````
 # POO Java
 
 ### Constructeur : 

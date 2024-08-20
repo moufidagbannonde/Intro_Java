@@ -7,6 +7,6 @@ public class exo2 {
             sum += i;
             i++;
         }
-            System.out.println(sum);
+        System.out.println(sum);
     }
 }
