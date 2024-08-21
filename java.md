@@ -28,21 +28,22 @@ Créer un langage de programmation orientée objet qui pourrait implémenter une
   ## Variables
 * Types de variables
    * variables primitives (
-  ````php
+  ````java
   int 
   float
   char // uniquement des simples quotes
   boolean
-  String // définir uniquement avec les doubles quotes
   double  
   ````
   )
    * variables non primitives (
 
+  `String` // définir uniquement avec les doubles quotes
+ 
 Array  , Objects , Classes
   )
 * Pour définir une variable en java 
-```php
+```java
   type variable_name ;
 
   typeofvariable variable_name = value ;
@@ -200,6 +201,7 @@ int[] tableau = {1, 2, 3}
   int[] original = {1, 2, 3, 4, 5};
   int[] part = Arrays.copyOfRange(original, 1, 4); // {2, 3, 4}
    ````
+   
    **`Arrays.sort()`**  : trie les éléments d'un tableau dans l'ordre naturel `void Arrays.sort(T[] array);`
  ````java
  int[] numbers = {3, 1, 4, 1, 5};

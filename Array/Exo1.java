@@ -7,6 +7,5 @@
     static void trier(int[] gamma){
     Arrays.sort(gamma);
     System.out.println(Arrays.toString(gamma));
-    }
-    
+    }    
 }
