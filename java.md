@@ -271,7 +271,32 @@ String matrixString = Arrays.deepToString(matrix); // "[[1, 2], [3, 4]]"
   ````
 # POO Java
 
+### Classes 
+  * Objet Java
+    * attributs : encore appelés les `fields`(champs) sont des propriétés , caractéristiques d'un objet 
+    * méthodes : actions que peut mener un objet 
+      * static : accessible sans instancier la classe
+      * contrairement pour les méthodes qui sont en public    
 ### Constructeur : 
 utilisé pour initialiser les attributs d'un objet au moment de la création
 * Les accesseurs `get` permettent de lire les valeurs des variables 
 * Les modificateurs `set` pour modifier leurs valeurs 
+
+### Modificateurs 
+#### Classes
+  **modificateur d'accès** : contrôle le niveau d'accès
+  * *public* : accessible par n'importe quelle autre classe
+  * *default* : accessible par les classes du même package
+  **modificateur de non accès** : ne contrôle pas le niveau d'accès mais fournit d'autres fonctionnalités ! (*Final*, *abstract*)
+
+#### Attributs, Méthodes et Constructeurs
+  *Modificateurs d'accès*
+ * *public*
+  * *private*
+  * *default*
+  * *protected*
+  
+  *Modificateurs de non accès* 
+  * *final*
+  * *static*
+  * *abstract*

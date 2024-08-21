@@ -2,10 +2,11 @@ import java.lang.StringBuffer;
 
 public class Exercice5 {
     public static void main(String[] args) {
-       String alpha = " Je suis un dévéloppeur junior !";
+       String alpha = ".rosért nu tse liavart el euQ ";
             reverseString(alpha);
             StringBufferReverse(alpha);
     }
+    
     public static void reverseString(String alpha){
                 // conversion du string en un tableau de string 
                         char[] strArray = alpha.toCharArray();
