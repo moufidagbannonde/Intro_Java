@@ -251,6 +251,24 @@ int hashCode = Arrays.hashCode(numbers);
 int[][] matrix = {{1, 2}, {3, 4}};
 String matrixString = Arrays.deepToString(matrix); // "[[1, 2], [3, 4]]"
 ````
+* `HashSet` et `Set` pour supprimer les doublons dans un tableau 
+  * `HashSet` : crée un nouvel ensemble vide  
+  * `Set` : collection qui ne contient aucun élément en double
+
+````java
+   int[] numbers = {
+            2 , 4 , 9 , 2 , 6 , 5 , 9 , 11
+          };
+          // création d'un nouveau tableau de type HashSet qui ne prend pas de doublons
+          Set<Integer> unicNumbers = new HashSet<>();
+        //   parcours du tableau  numbers 
+          for (int alpha : numbers){
+            // ajout de chaque élément du tableau au nouveau tableau créé
+            unicNumbers.add(alpha);
+          }
+        //   affichage du tableau sans doublons
+          System.out.println(unicNumbers); // devrait afficher [2, 4, 5, 6, 9, 11]
+  ````
 # POO Java
 
 ### Constructeur : 
