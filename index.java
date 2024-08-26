@@ -8,17 +8,16 @@ class AnimalFamilier {
         this.âge = a;
         this.taille = t; 
         this.poids = p;
-        this.couleur = c
-    })
-
+        this.couleur = c;
+    });
     public void manger(){
-        return "L'animal mange !"
+        return "L'animal mange !";
     }
     public void dormir(){
-        return "L'animal dort !"
+        return "L'animal dort !";
     }
     public void dire(int taille, int âge, String couleur ,int poids){
-            return "L'animal âgé de " + this.âge + " a la couleur " +this.couleur + " , pèse " + this.poids + "et mesure " + this.taille
+            return "L'animal âgé de " + this.âge + " a la couleur " +this.couleur + " , pèse " + this.poids + "et mesure " + this.taille;
     }
 
     public void afficher(){

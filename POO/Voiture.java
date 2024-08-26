@@ -1,29 +1,27 @@
 public class Voiture {
-    String type = "Audi";
-    String modèle = "2019";
-    int prix = 2500;
-    String couleur = "rouge";
-
- public Voiture (){
-    System.out.println("Classe instanciée ");
- }
+    private String type = "Audi";
+    private String modèle = "2019";
+    private int prix = 2500;
+    private String couleur = "rouge";
+public Voiture(String type){
+    System.out.println("Yo bro !");
+}
   public Voiture(String t, String m, int p , String c){
     type = t;
     modèle = m;
     prix = p;
     couleur =  c   ; 
-    System.out.println("Je veux une voiture de type " + type + " , un modèle " + modèle + " de couleur " + couleur + " et valant " + p + " £ ");
+    System.out.println("Je veux une voiture de type " + type + " , un modele " + modèle + " de couleur " + couleur + " et valant " + p + " euros ");
  }
-    public void accélérer(){
-        System.out.println("La voiture accélère !");
+
+//  getter
+    public String getPrice(){
+        return " Ceci est une voiture " + type + " de couleur " + couleur + ", modele " + modèle + " qui vaut " + prix + " euros ";
     }
-    public void ralentir(){
-        System.out.println("La voiture ralentit !");
-    }
-    public void tourner(){
-        System.out.println("La voiture tourne !");
-    }
-    public void freiner(){
-        System.out.println("La voiture freine !");
+    public void setPrice(String newType, String newModel, int newPrice, String newColor){
+        type = newType;
+        modèle = newModel;
+        this.prix = newPrice;
+        this.couleur = newColor;
     }
 }

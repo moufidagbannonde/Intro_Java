@@ -300,3 +300,11 @@ utilisé pour initialiser les attributs d'un objet au moment de la création
   * *final*
   * *static*
   * *abstract*
+
+### Encapsulation  
+ S'assurer que les données sensibles soient cachées aux utilisateurs
+
+ ### Accesseurs - Mutateurs
+  * Getters (accesseurs)
+    * 
+  * Setters (mutateurs)
